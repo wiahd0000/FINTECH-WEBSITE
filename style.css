@@ -257,7 +257,7 @@ border: 2px solid white;
     flex-direction: column;
     position: absolute;
 top: 70px;
-left: 0%;
+right: 0%;
  background-color: #0B1F3A;
 padding: 1.5rem 2rem;
 text-align: center;
@@ -290,22 +290,26 @@ transform: scale(1.1);
 }
 
 .FinalCTA span{
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .FinalCTA p{
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .FinalCTA button{
   margin-top: 1rem;
-  padding: 0.6rem 1rem;
+  padding: 0.6rem 1.5rem;
 background-color: #2563EB;
 border: none;
 font-size: 1rem;
 display: flex;
 
 
+}
+
+ul.active{
+  display: flex;
 }
 
 }
@@ -334,9 +338,24 @@ display: flex;
 }
 
 .FinalCTA button{
-  padding: 0.6rem;
-  font-size: 0.9rem;
+  padding: 0.6rem 1rem;
+  font-size: 0.7rem;
   align-items: center;
 }
+
+.finance-card{
+  width: 300px;
+ 
+}
+
+
+.FinalCTA span{
+  font-size: 1rem;
+}
+
+.FinalCTA p{
+  font-size: 1rem;
+}
+
 
 }
