@@ -277,7 +277,7 @@ display: none;
   }
 
   .home-container p{
-    text-align: justify;
+    text-align: center;
   }
 
 
@@ -291,17 +291,17 @@ transform: scale(1.1);
 }
 
 .FinalCTA{
-  align-items: center;
-  justify-content: center;
+text-align: center;
 }
 
 .FinalCTA span{
   font-size: 1rem;
+  text-align: center;
 }
 
 .FinalCTA p{
   font-size: 1rem;
-  text-align: justify;
+  text-align: center
 }
 
 .FinalCTA button{
@@ -310,9 +310,7 @@ transform: scale(1.1);
 background-color: #2563EB;
 border: none;
 font-size: 1rem;
-display: flex;
-
-
+text-align: center;
 }
 
 ul.active{
@@ -321,10 +319,12 @@ ul.active{
 
 .finance-card span{
 font-size: 1rem;
+text-align: center;
 }
 
 .finance-card p{
   font-size: 18px;
+  text-align: center;
 }
 
 .finance-card{
@@ -333,6 +333,14 @@ font-size: 1rem;
 
 .move{
   font-size: 16px;
+}
+
+.Trust-strip{
+  text-align: center;
+}
+.Trust-strip p{
+  margin-top: 2rem;
+  text-align: center;
 }
 
 }
