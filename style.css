@@ -30,6 +30,10 @@ ul{
   gap: 2rem;
 }
 
+/* .btn-burger i{
+  display: none;
+} */
+
 .header-container a{
   text-decoration: none;
   font-size: 1.5rem;
@@ -51,6 +55,10 @@ ul{
   padding: 5px;
   box-shadow: 1px 2px 2px rgb(238, 233, 233);
   border-radius: 8px;
+}
+
+#btn-burger{
+  display: none;
 }
 
 /* home section */
@@ -121,7 +129,6 @@ background-color: transparent;
   color:  white;
   font-weight: bold;
   border: 2px solid #D9E2EF;
-  margin-left: 2rem;
   cursor: pointer;
 }
 
@@ -132,6 +139,10 @@ background-color: transparent;
 
 .hero-btn{
   margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  text-align: center;
   
 }
 
@@ -280,10 +291,17 @@ display: none;
     text-align: center;
   }
 
+  .home-left{
+    padding: 0rem 0.5rem;
+  }
+
 
   .home-img img:hover{
 transform: scale(1.1);
 }
+
+
+
 
 .finanace-parent{
  flex-direction: column;
@@ -292,6 +310,7 @@ transform: scale(1.1);
 
 .FinalCTA{
 text-align: center;
+padding: 1rem 1.5rem;
 }
 
 .FinalCTA span{
@@ -311,6 +330,37 @@ background-color: #2563EB;
 border: none;
 font-size: 1rem;
 text-align: center;
+}
+
+#btn-burger{
+  display: flex;
+}
+
+.btn-right-two{
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+  border: none;
+  font-size: 0.6rem;
+  font-weight: bold;
+  border: 2px solid #D9E2EF;
+  cursor: pointer;
+}
+
+.btn-right-one{
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 2px solid #D9E2EF;
+  cursor: pointer;
+}
+
+.hero-btn{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 ul.active{
@@ -337,11 +387,17 @@ text-align: center;
 
 .Trust-strip{
   text-align: center;
+   padding: 0rem 0.5rem;
 }
 .Trust-strip p{
   margin-top: 2rem;
   text-align: center;
 }
+
+/* .btn-right-two{
+  margin-left: 0rem;
+
+} */
 
 }
 
@@ -352,12 +408,22 @@ text-align: center;
 @media (max-width: 600px) {
 
 
-.btn-right-two{
+
+/* .btn-right-two{
  margin-top: 1rem;
+} */
+
+.hero-btn .home-left{
+  text-align: center;
+ 
 }
 
-.hero-btn{
-  text-align: center;
+.home-left{
+  padding: 0rem 1rem;
+}
+
+.text-h1{
+  font-size: 30px;
 }
 
 .home-img img{
@@ -365,7 +431,7 @@ text-align: center;
 }
 
 .Finance h2{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .FinalCTA button{
@@ -387,6 +453,28 @@ text-align: center;
 .FinalCTA p{
   font-size: 1rem;
 }
+
+.btn-right-one{
+  padding: 0.4rem 0.5rem;
+  border-radius: 0.3rem;
+  border: none;
+  font-size: 0.5rem;
+  font-weight: bold;
+  border: 2px solid #D9E2EF;
+  cursor: pointer;
+}
+
+.btn-right-two{
+  padding: 0.4rem 0.5rem;
+  border-radius: 0.3rem;
+  border: none;
+  font-size: 0.5rem;
+  font-weight: bold;
+  border: 2px solid #D9E2EF;
+  cursor: pointer;
+}
+
+
 
 
 }
